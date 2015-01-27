@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>472E6228-228C-486A-9213-3E3DB31E1BEE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0AE9BDEDF01CAF61A78681CE8AFE0CDE725E74D9</key>
+		<string>https://github.com/stormbay/Cocoa.OSX.Sample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0AE9BDEDF01CAF61A78681CE8AFE0CDE725E74D9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stormbay/Cocoa.OSX.Sample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0AE9BDEDF01CAF61A78681CE8AFE0CDE725E74D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0AE9BDEDF01CAF61A78681CE8AFE0CDE725E74D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

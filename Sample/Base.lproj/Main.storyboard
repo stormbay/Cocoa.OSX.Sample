@@ -820,7 +820,7 @@
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQF-PG-tYB">
-                                                    <rect key="frame" x="295" y="8" width="167" height="211"/>
+                                                    <rect key="frame" x="12" y="8" width="445" height="211"/>
                                                     <clipView key="contentView" misplaced="YES" id="TlE-YR-oEN">
                                                         <rect key="frame" x="1" y="1" width="223" height="133"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -829,10 +829,10 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="223" height="211"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                <size key="minSize" width="152" height="211"/>
+                                                                <size key="minSize" width="430" height="211"/>
                                                                 <size key="maxSize" width="463" height="10000000"/>
                                                                 <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                <size key="minSize" width="152" height="211"/>
+                                                                <size key="minSize" width="430" height="211"/>
                                                                 <size key="maxSize" width="463" height="10000000"/>
                                                             </textView>
                                                         </subviews>
@@ -865,9 +865,11 @@
                         <outlet property="multiLabel" destination="YSR-yA-3H8" id="Alh-vU-Yl9"/>
                         <outlet property="multiTextField" destination="XID-tf-6z6" id="fZL-UE-7Wz"/>
                         <outlet property="pop" destination="9XF-Gc-uay" id="syQ-2u-Avk"/>
+                        <outlet property="scrollView" destination="JQF-PG-tYB" id="qF5-HB-UnV"/>
                         <outlet property="textField" destination="jMi-1z-Md2" id="8xF-LP-TbC"/>
                         <outlet property="textFieldEditableState" destination="iep-iR-9pa" id="jQf-GN-E1g"/>
                         <outlet property="textFieldEnableState" destination="5JT-rc-2lH" id="aLj-Fj-oWR"/>
+                        <outlet property="textView" destination="D80-sT-7qy" id="xUw-ZZ-IQs"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

@@ -48,6 +48,8 @@
 	[self.comboBg setEditable: NO];
 	[self.comboBg addItemsWithObjectValues: array];
 	[self.comboBg selectItemWithObjectValue: @"White"];
+	
+	[self displayScrollView];
 }
 
 - (void)setRepresentedObject:(id)representedObject {
@@ -240,6 +242,22 @@
 	NSLog(@"intVal: %ld", [self.lineSlider integerValue]);
 
 	[self updateLevelIndicator: [self.lineSlider intValue]];
+}
+
+- (void)displayScrollView
+{
+	NSFileManager *file;
+//	NSData *data;
+	
+	file = [NSFileManager defaultManager];
+	NSLog(@"PWD = %@", [file currentDirectoryPath]);
+
+//	data = [file contentsAtPath:@"../../../../android.txt"];
+
+	[self.textView insertText: [NSString stringWithContentsOfFile:@"../../../../android.txt" encoding:NSUTF8StringEncoding error:NULL]];
+
+	[self.textView setGrammarCheckingEnabled: NO];
+	[self.textView setEditable: NO];
 }
 
 @end
