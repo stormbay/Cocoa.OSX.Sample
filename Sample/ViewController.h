@@ -13,13 +13,17 @@
 - (void)setTextColor: (NSColor *)color;
 - (void)setTextBgColor: (NSColor *)color;
 - (void)updateLevelIndicator: (int)level;
-
+- (void)displayScrollView;
+    
 @property (weak) IBOutlet NSTextField *label;
 @property (weak) IBOutlet NSTextField *textField;
 @property (weak) IBOutlet NSTextField *multiLabel;
 @property (weak) IBOutlet NSTextField *multiTextField;
 @property (weak) IBOutlet NSPopUpButton *pop;
 @property (weak) IBOutlet NSComboBox *comboBg;
+@property (unsafe_unretained) IBOutlet NSTextView *textView;
+@property (weak) IBOutlet NSScrollView *scrollView;
+@property (weak) IBOutlet NSClipView *clipView;
 
 @property (weak) IBOutlet NSButton *textFieldEditableState;
 @property (weak) IBOutlet NSButton *textFieldEnableState;

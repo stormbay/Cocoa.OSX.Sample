@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18289AF11AC94B4100DBC266 /* DrawCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289AF01AC94B4000DBC266 /* DrawCircle.m */; };
-		18A4D2481AC8F4D30057303A /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4D2471AC8F4D30057303A /* BezierView.m */; };
+		18276A891ACA75E300EB9D50 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18276A861ACA75E300EB9D50 /* BezierView.m */; };
+		18276A8A1ACA75E300EB9D50 /* DrawCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18276A881ACA75E300EB9D50 /* DrawCircle.m */; };
+		18276A8D1ACA7CEC00EB9D50 /* ShowImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18276A8C1ACA7CEC00EB9D50 /* ShowImage.m */; };
 		18E7528E1A7375470032136A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7528D1A7375470032136A /* AppDelegate.m */; };
 		18E752901A7375470032136A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7528F1A7375470032136A /* main.m */; };
 		18E752931A7375470032136A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E752921A7375470032136A /* ViewController.m */; };
@@ -28,10 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18289AEF1AC94B4000DBC266 /* DrawCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCircle.h; sourceTree = "<group>"; };
-		18289AF01AC94B4000DBC266 /* DrawCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCircle.m; sourceTree = "<group>"; };
-		18A4D2461AC8F4D30057303A /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
-		18A4D2471AC8F4D30057303A /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		18276A851ACA75E300EB9D50 /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		18276A861ACA75E300EB9D50 /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		18276A871ACA75E300EB9D50 /* DrawCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCircle.h; sourceTree = "<group>"; };
+		18276A881ACA75E300EB9D50 /* DrawCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCircle.m; sourceTree = "<group>"; };
+		18276A8B1ACA7CEC00EB9D50 /* ShowImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImage.h; sourceTree = "<group>"; };
+		18276A8C1ACA7CEC00EB9D50 /* ShowImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImage.m; sourceTree = "<group>"; };
 		18E752871A7375470032136A /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7528B1A7375470032136A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E7528C1A7375470032136A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,10 @@
 		18E752891A7375470032136A /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				18276A851ACA75E300EB9D50 /* BezierView.h */,
+				18276A861ACA75E300EB9D50 /* BezierView.m */,
+				18276A871ACA75E300EB9D50 /* DrawCircle.h */,
+				18276A881ACA75E300EB9D50 /* DrawCircle.m */,
 				18E7528C1A7375470032136A /* AppDelegate.h */,
 				18E7528D1A7375470032136A /* AppDelegate.m */,
 				18E752911A7375470032136A /* ViewController.h */,
@@ -93,10 +100,8 @@
 				18E752941A7375470032136A /* Images.xcassets */,
 				18E752961A7375470032136A /* Main.storyboard */,
 				18E7528A1A7375470032136A /* Supporting Files */,
-				18A4D2461AC8F4D30057303A /* BezierView.h */,
-				18A4D2471AC8F4D30057303A /* BezierView.m */,
-				18289AEF1AC94B4000DBC266 /* DrawCircle.h */,
-				18289AF01AC94B4000DBC266 /* DrawCircle.m */,
+				18276A8B1ACA7CEC00EB9D50 /* ShowImage.h */,
+				18276A8C1ACA7CEC00EB9D50 /* ShowImage.m */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -228,9 +233,10 @@
 			files = (
 				18E752931A7375470032136A /* ViewController.m in Sources */,
 				18E752901A7375470032136A /* main.m in Sources */,
-				18289AF11AC94B4100DBC266 /* DrawCircle.m in Sources */,
+				18276A8D1ACA7CEC00EB9D50 /* ShowImage.m in Sources */,
+				18276A8A1ACA75E300EB9D50 /* DrawCircle.m in Sources */,
 				18E7528E1A7375470032136A /* AppDelegate.m in Sources */,
-				18A4D2481AC8F4D30057303A /* BezierView.m in Sources */,
+				18276A891ACA75E300EB9D50 /* BezierView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

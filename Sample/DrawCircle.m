@@ -56,22 +56,24 @@
 - (void)mouseDown:(NSEvent *)theEvent
 {
 	NSPoint pt = [theEvent locationInWindow];
-	NSLog(@"mouse Down: %ld : %@", [theEvent clickCount], NSStringFromPoint(pt));
+//	NSLog(@"mouse Down: %ld : %@", [theEvent clickCount], NSStringFromPoint(pt));
 	
-	NSRect frame = [self frame];
+//	NSRect frame = [self frame];
 //	NSLog(@"frame: %@", NSStringFromPoint(frame.origin));
-	
+
 	NSRect rect = [self bounds];
 //	NSLog(@"bounds: %@", NSStringFromPoint(rect.origin));
 	
 	center = pt;
-	
-	float min_x = MIN((pt.x - frame.origin.x), (frame.origin.x + rect.size.width - pt.x));
-	float min_y = MIN((pt.y - frame.origin.y), (frame.origin.y + rect.size.height - pt.y));
+
+	float min_x = MIN((pt.x - 260), (258 + rect.size.width - pt.x));
+	float min_y = MIN((pt.y - 22), (20 + rect.size.height - pt.y));
+//	float min_x = MIN((pt.x - frame.origin.x), (frame.origin.x + rect.size.width - pt.x));
+//	float min_y = MIN((pt.y - frame.origin.y), (frame.origin.y + rect.size.height - pt.y));
 	
 	radius = MIN( min_x, min_y );
 	
-	NSLog(@"radius: %f", radius );
+//	NSLog(@"radius: %f", radius );
 }
 
 - (void)mouseUp:(NSEvent *)theEvent
@@ -90,16 +92,16 @@
 
 - (void)rightMouseDown:(NSEvent *)theEvent
 {
-	NSPoint pt = [theEvent locationInWindow];
-	NSLog(@"Right mouse Down: %ld : %@", [theEvent clickCount], NSStringFromPoint(pt));
+//	NSPoint pt = [theEvent locationInWindow];
+//	NSLog(@"Right mouse Down: %ld : %@", [theEvent clickCount], NSStringFromPoint(pt));
 	
 	[self clearBg];
 }
 
 - (void)rightMouseUp:(NSEvent *)theEvent
 {
-	NSPoint pt = [theEvent locationInWindow];
-	NSLog(@"Right mouse Up: %@", NSStringFromPoint(pt));
+//	NSPoint pt = [theEvent locationInWindow];
+//	NSLog(@"Right mouse Up: %@", NSStringFromPoint(pt));
 }
 
 - (void)rightMouseDragged:(NSEvent *)theEvent
