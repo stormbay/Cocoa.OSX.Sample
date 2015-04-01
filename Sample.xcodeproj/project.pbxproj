@@ -16,6 +16,9 @@
 		18E752951A7375470032136A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E752941A7375470032136A /* Images.xcassets */; };
 		18E752981A7375470032136A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E752961A7375470032136A /* Main.storyboard */; };
 		18E752A41A7375470032136A /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E752A31A7375470032136A /* SampleTests.m */; };
+		18F79C8C1ACB88AE00A39D28 /* OpenGLSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F79C8B1ACB88AE00A39D28 /* OpenGLSample.m */; };
+		18F79C8E1ACB88BE00A39D28 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F79C8D1ACB88BE00A39D28 /* OpenGL.framework */; };
+		18F79C901ACB88C800A39D28 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F79C8F1ACB88C800A39D28 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		18E7529D1A7375470032136A /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E752A21A7375470032136A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E752A31A7375470032136A /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		18F79C8A1ACB88AE00A39D28 /* OpenGLSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLSample.h; sourceTree = "<group>"; };
+		18F79C8B1ACB88AE00A39D28 /* OpenGLSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLSample.m; sourceTree = "<group>"; };
+		18F79C8D1ACB88BE00A39D28 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		18F79C8F1ACB88C800A39D28 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F79C901ACB88C800A39D28 /* GLUT.framework in Frameworks */,
+				18F79C8E1ACB88BE00A39D28 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +79,8 @@
 		18E7527E1A7375470032136A = {
 			isa = PBXGroup;
 			children = (
+				18F79C8F1ACB88C800A39D28 /* GLUT.framework */,
+				18F79C8D1ACB88BE00A39D28 /* OpenGL.framework */,
 				18E752891A7375470032136A /* Sample */,
 				18E752A01A7375470032136A /* SampleTests */,
 				18E752881A7375470032136A /* Products */,
@@ -102,6 +113,8 @@
 				18E7528A1A7375470032136A /* Supporting Files */,
 				18276A8B1ACA7CEC00EB9D50 /* ShowImage.h */,
 				18276A8C1ACA7CEC00EB9D50 /* ShowImage.m */,
+				18F79C8A1ACB88AE00A39D28 /* OpenGLSample.h */,
+				18F79C8B1ACB88AE00A39D28 /* OpenGLSample.m */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -233,6 +246,7 @@
 			files = (
 				18E752931A7375470032136A /* ViewController.m in Sources */,
 				18E752901A7375470032136A /* main.m in Sources */,
+				18F79C8C1ACB88AE00A39D28 /* OpenGLSample.m in Sources */,
 				18276A8D1ACA7CEC00EB9D50 /* ShowImage.m in Sources */,
 				18276A8A1ACA75E300EB9D50 /* DrawCircle.m in Sources */,
 				18E7528E1A7375470032136A /* AppDelegate.m in Sources */,

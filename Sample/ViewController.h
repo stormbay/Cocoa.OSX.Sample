@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "OpenGLSample.h"
 
 @interface ViewController : NSViewController
 
@@ -44,6 +45,10 @@
 
 - (IBAction)circleSet:(id)sender;
 - (IBAction)lineSet:(id)sender;
+
+@property (weak) IBOutlet OpenGLSample *glView;
+@property (weak) IBOutlet NSTextField *glField;
+- (IBAction)glUpdate:(id)sender;
 
 @end
 

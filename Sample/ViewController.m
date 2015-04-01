@@ -266,4 +266,11 @@
 //	NSLog(@"mouse Down: %ld : %@", [theEvent clickCount], NSStringFromPoint(pt));
 }
 
+- (IBAction)glUpdate:(id)sender {
+	[[self glView] setSize:[sender floatValue]];
+	[[self glView] setNeedsDisplay:YES];
+	
+	[[self glField] setFloatValue:[sender floatValue]];
+}
+
 @end
