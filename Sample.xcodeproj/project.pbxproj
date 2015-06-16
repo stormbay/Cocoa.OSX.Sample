@@ -10,6 +10,7 @@
 		18276A891ACA75E300EB9D50 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18276A861ACA75E300EB9D50 /* BezierView.m */; };
 		18276A8A1ACA75E300EB9D50 /* DrawCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18276A881ACA75E300EB9D50 /* DrawCircle.m */; };
 		18276A8D1ACA7CEC00EB9D50 /* ShowImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18276A8C1ACA7CEC00EB9D50 /* ShowImage.m */; };
+		1839F9261B307972007AE0AB /* OpenGLDraw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839F9251B307972007AE0AB /* OpenGLDraw2D.m */; };
 		18E7528E1A7375470032136A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7528D1A7375470032136A /* AppDelegate.m */; };
 		18E752901A7375470032136A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7528F1A7375470032136A /* main.m */; };
 		18E752931A7375470032136A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E752921A7375470032136A /* ViewController.m */; };
@@ -38,6 +39,8 @@
 		18276A881ACA75E300EB9D50 /* DrawCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCircle.m; sourceTree = "<group>"; };
 		18276A8B1ACA7CEC00EB9D50 /* ShowImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImage.h; sourceTree = "<group>"; };
 		18276A8C1ACA7CEC00EB9D50 /* ShowImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImage.m; sourceTree = "<group>"; };
+		1839F9241B307972007AE0AB /* OpenGLDraw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLDraw2D.h; sourceTree = "<group>"; };
+		1839F9251B307972007AE0AB /* OpenGLDraw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLDraw2D.m; sourceTree = "<group>"; };
 		18E752871A7375470032136A /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7528B1A7375470032136A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E7528C1A7375470032136A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				18276A8C1ACA7CEC00EB9D50 /* ShowImage.m */,
 				18F79C8A1ACB88AE00A39D28 /* OpenGLSample.h */,
 				18F79C8B1ACB88AE00A39D28 /* OpenGLSample.m */,
+				1839F9241B307972007AE0AB /* OpenGLDraw2D.h */,
+				1839F9251B307972007AE0AB /* OpenGLDraw2D.m */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			files = (
 				18E752931A7375470032136A /* ViewController.m in Sources */,
 				18E752901A7375470032136A /* main.m in Sources */,
+				1839F9261B307972007AE0AB /* OpenGLDraw2D.m in Sources */,
 				18F79C8C1ACB88AE00A39D28 /* OpenGLSample.m in Sources */,
 				18276A8D1ACA7CEC00EB9D50 /* ShowImage.m in Sources */,
 				18276A8A1ACA75E300EB9D50 /* DrawCircle.m in Sources */,
